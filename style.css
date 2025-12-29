@@ -1,5 +1,174 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    font-size: 16px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.body-1 {
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 30px 100px;
+}
+
+.body-1-text-bold {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.body-1-text-normal {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.body-1 button {
+    background-color: #3882f6;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.body-1-image {
+    width: 300px;
+    background-color: #acacac;
+    flex-shrink: 0;
+}
+
+.body-2 {
+    background-color: #fff;
+    color: #1f2937;
+    padding: 30px 100px;
+}
+
+.body-2-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.card-img {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: 100px;
+    background-color: #acacac;
+    border: 2px solid #1f2937;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.body-3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 28px;
+    font-weight: 300px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.quote-author {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.body-4 {
+    background-color: #fff;
+    color: #fff;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    flex-grow: 1;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-text-bold {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signup-text-normal {
+    font-size: 16px;
+}
+
+.signup-button button{
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    padding: 30px 100px;
+    justify-content: center;
+    align-items: center;
 }
