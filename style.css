@@ -16,7 +16,7 @@ body {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 15px 100px;
+    padding: 30px 300px;
 }
 
 .header-logo {
@@ -45,7 +45,7 @@ a {
     display: flex;
     justify-content: space-between;
     gap: 15px;
-    padding: 30px 100px;
+    padding: 100px 300px;
 }
 
 .body-1-text-bold {
@@ -78,14 +78,14 @@ a {
 .body-2 {
     background-color: #fff;
     color: #1f2937;
-    padding: 30px 100px;
+    padding: 100px 300px;
 }
 
 .body-2-text {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .cards {
@@ -108,7 +108,7 @@ a {
 .body-3 {
     background-color: #e5e7eb;
     color: #1f2937;
-    padding: 30px 100px;
+    padding: 100px 300px;
     display: flex;
     flex-direction: column;
 }
@@ -129,7 +129,7 @@ a {
 .body-4 {
     background-color: #fff;
     color: #fff;
-    padding: 30px 100px;
+    padding: 100px 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +168,7 @@ a {
     background-color: #1f2937;
     color: #fff;
     display: flex;
-    padding: 30px 100px;
+    padding: 30px 300px;
     justify-content: center;
     align-items: center;
 }
